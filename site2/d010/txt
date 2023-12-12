@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'kkk';
+    src: url('/fontes/TypoSlab\ Irregular\ shadowed_demo.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor1:#8dadcc;
+    --cor2:#7696b4;
+    --cor3:#5f809d;
+    --cor4:#476985;
+    --cor5:#30526d;
+    --cor6:#000000;
+    --cor7:#ffffff;
+}
+body {
+    background-color: #8dadcc;
+}
+
+main {
+    color: var(--cor6);
+}
+
+#principal {
+    font-family: 'kkk';
+}
+

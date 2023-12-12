@@ -1,0 +1,165 @@
+@charset "UTF-8";
+:root {
+    --cor01:#8db6ff;
+    --cor02:#6c9feb;
+    --cor03:#4a88d8;
+    --cor04:#2971c4;
+    --cor05:#075ab0;
+    --cor006:#1a15c0;
+    --cor06:#ffffff;
+    --cor07:#000000;
+    --cor08:#ebe5c5;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor01);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor03), var(--cor05));
+    min-height: 120px;
+    text-align: center;
+    padding: 20px;
+}
+#principal {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    color: var(--cor06);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header > p {
+    color: var(--cor06);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 1px 0px black;
+}
+nav {
+    background-color: var(--cor05);
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px var(--cor05);
+}
+nav a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+nav a:hover {
+    background-color: var(--cor02);
+    color: var(--cor006);
+    text-decoration: underline;
+    border-radius: 5px;
+}
+main {
+    color: #000000;
+    background-color: #ffffff;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px var(--cor006);
+}
+main img {
+    width: 100%;
+}
+main img.pequena {
+    max-width: 350px; 
+    display: block;
+    margin: auto;
+    
+}
+
+main .video {
+    background-color: var(--cor006);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+main h1 {
+    color: var(--cor05);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+main h2{
+    color: var(--cor05);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-image: linear-gradient(to right, #8db7ff9c, rgba(255, 255, 255, 0.425));
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 20px;
+}
+main strong {
+   color: var(--cor006);
+   font-weight: bolder;
+}
+main a {
+    font-weight: bolder;
+    color: var(--cor006);
+}
+
+main a:hover{
+    text-decoration: u nderline;
+    color: var(--cor02);
+}
+
+aside{
+    background-color: var(--cor01);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.384);
+}
+
+aside > h3 {
+    background-color: var(--cor04);
+    color:#ffffff;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+    
+}
+footer {
+    background-color: var(--cor006);
+    color: #ffffff;
+}
+footer p {
+    text-align: center;
+}
+footer p a {
+    color: var(--cor06);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    color:#8db6ff
+   
+
+}
